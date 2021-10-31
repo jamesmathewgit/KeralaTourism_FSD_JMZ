@@ -1,0 +1,8 @@
+.webbody{
+    background-image:url("images/Home_Image.jpg") ;
+    background-position:bottom;
+    /* background-size:; */
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+
+}

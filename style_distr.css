@@ -1,0 +1,105 @@
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 10px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+
+
+
+
+  #content{   
+    float: right; 
+    margin-left: 600px; 
+    margin-top: 50px;
+    /* border-style: solid;
+    border-color: red; */
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 5px;
+    /* width:20%; */
+  }
+  .wrapper > div img {
+    max-width:100%;
+    height: 155px;
+    width: 240px;
+  }
+
+  .wrapper > div h3 {
+    margin-left: 150px;
+    padding-top: 50px;
+    paddin
+   
+  }
+
+
+  .distrheadertag{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px; 
+    
+}
+
+
+.distrheadertag h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.distrheadertag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 8px;
+
+}
+
+.dist_headline{
+    margin-left: 30%;
+    margin-right: 50%;
+    padding-top: 20px;
+    border-style: solid;
+    border-color: red;
+}
+
+.shortdescr{
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    /* margin-left: 3%; */
+    margin-right: 40%;
+    /* border-style: solid;
+    border-color: red; */
+    /* background-color: white; */
+    
+
+
+}
+
+.shortdescr > h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    padding-top: 20px;
+    
+}
