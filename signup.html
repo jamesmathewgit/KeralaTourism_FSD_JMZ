@@ -23,20 +23,22 @@
     </header>
 
     <div class="signup">  
-        <form action="#">
+        <form action="#" onsubmit="checkEmail()" >
             
             <div class="signupcont">
                 <h2>Enter Details</h2>
                 <label >First Name</label> <br>
-                <input type="text" placeholder="First  Name"><br>
+                <input id='signupfname' type="text" placeholder="First  Name"><br>
                 <label >Last Name</label> <br>
-                <input type="text" placeholder="Last Name"><br>
+                <input id='signuplname' type="text" placeholder="Last Name"><br>
                 <label >Email Id / User ID</label> <br>
-                <input type="text" placeholder="Email ID / User ID"><br>
+                <input id='signupmail' type="text" placeholder="Email ID / User ID"><br>
+                <label >Contact No</label> <br>
+                <input id='signupcont' type="text" placeholder="Contact No"><br>
                 <label >Password</label> <br>
-                <input type="password" placeholder="password"><br>
+                <input id='signuppass' type="password" placeholder="password"><br>
                 <label >Re-Enter Password</label> <br>
-                <input type="password" placeholder="password"><br>
+                <input id='signuprepass' type="password" placeholder="password"><br>
                 <button >Submit</button> <br>
             </div>        
     </div>
@@ -61,5 +63,10 @@
         <div>
         <div class="footer-copyright text-center">© 2020 Copyright: KeralaTourismWebsite.com</div>
     </footer>
+
+    <script src="/script.js">
+        
+    </script>
+
 </body>
 </html>
